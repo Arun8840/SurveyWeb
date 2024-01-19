@@ -1,14 +1,14 @@
 import React from "react"
 import { Check } from "../icons/PageIcons"
 
-function NestedLinkItems({ items, index, setOpen }: any) {
+function NestedLinkItems({ items, key, setOpen }: any) {
   const handleClicklinks = () => {
     setOpen(false)
   }
   return (
     <div
       onClick={handleClicklinks}
-      key={index}
+      key={key+1}
       className="p-1 rounded text-white hover:bg-white hover:text-[black] transition-colors duration-200 cursor-pointer flex items-center gap-2"
     >
       <div className="w-fit p-3 border border-gray-300 border-opacity-5 rounded grid place-items-center">

@@ -16,9 +16,10 @@ function IndustryFeatures() {
         </h1>
         <div className="h-1 bg-gradient-to-l from-[#190482] via-[#2F58CD] to-[#B931FC] w-1/3 mx-auto rounded-full"></div>
         <div className="grid lg:grid-cols-3 gap-2 flex-1 pt-3">
-          {FeaturesData.map((items) => {
+          {FeaturesData.map((items,index) => {
             return (
               <div
+              key={index}
                 className={`p-3 w-full min-h-[100px] rounded tracking-wider bg-white  ${poppinsNormal.className} `}
               >
                 <div className="flex items-center space-x-2">
@@ -30,7 +31,7 @@ function IndustryFeatures() {
 
                   <h1 className={`!font-bold`}>{items?.title}</h1>
                 </div>
-                <p className="text-gray-400 pt-2 text-sm leading-6 text-justify">
+                <p className="text-gray-600 pt-2 text-sm leading-6 text-justify">
                   {items?.content}
                 </p>
               </div>

@@ -20,10 +20,12 @@ function WhyUseSurvey() {
           <ul
             className={`grid lg:grid-cols-2 tracking-wider ${poppinsNormal.className}`}
           >
-            {MainPointOfSurvey.map((points) => {
+            {MainPointOfSurvey.map((points, index) => {
               return (
-                <li className="text-sm tracking-wider py-3 flex items-center gap-1">
-                  <Add width={15} />
+                <li
+                  key={index}
+                  className="text-sm tracking-wider py-3 list-disc list-inside"
+                >
                   {points}
                 </li>
               )

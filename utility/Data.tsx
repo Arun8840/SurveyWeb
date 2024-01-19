@@ -256,7 +256,7 @@ export const UsegetData = () => {
 
   const surveyFeatures: surveyFeaturesTypes[] = [
     {
-      title: " Survey Creation Features",
+      title: " Survey Creation",
       points: [
         "Questions per Survey",
         "Translation Survey",
@@ -274,7 +274,7 @@ export const UsegetData = () => {
       ],
     },
     {
-      title: "Survey Logic Features",
+      title: "Survey Logic",
       points: [
         "Trigger Email",
         "Standard Skip Logic",
@@ -293,7 +293,7 @@ export const UsegetData = () => {
       ],
     },
     {
-      title: "Customization & Branding Features",
+      title: "Customization & Branding",
       points: [
         "White Label Survey",
         "Custom Logo Options",
@@ -319,7 +319,7 @@ export const UsegetData = () => {
       ],
     },
     {
-      title: "Distributions Features",
+      title: "Distributions",
       points: [
         "Offline Mode For mobile",
         "Email Publish",
@@ -341,7 +341,7 @@ export const UsegetData = () => {
       ],
     },
     {
-      title: "Reporting Features",
+      title: "Reporting",
       points: [
         "PDF Exports",
         "Export Data",
@@ -349,7 +349,7 @@ export const UsegetData = () => {
       ],
     },
     {
-      title: "Security and Admin Features",
+      title: "Security and Admin",
       points: [
         "Advanced admin and security** including:",
         "Data isolation",
@@ -362,7 +362,7 @@ export const UsegetData = () => {
       ],
     },
     {
-      title: "Support Features",
+      title: "Support",
       points: ["24/7 email and phone support"],
     },
   ]

@@ -26,7 +26,7 @@ function NavBar() {
         </div>
         <ul className="flex gap-4 items-center h-full py-3 select-none">
           {NavItems.map((items, index: number) => {
-            return <NestedItems items={items} index={index} />
+            return <NestedItems items={items} key={index} />
           })}
           {/* //todo login button */}
           <Button size="small" variant="Secondary" label="Sign-Up" />

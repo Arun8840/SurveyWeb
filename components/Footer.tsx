@@ -60,7 +60,7 @@ function Footer() {
           </ul>
         </div>
       </footer>
-      <small className="text-center lg:text-end text-white tracking-wider">
+      <small className="text-center pt-5 lg:text-end text-white tracking-wider">
         Copyright © 2022 SkyStack LLC. All Rights reserved. PoweredBy
         ZettaStack.
       </small>

@@ -20,13 +20,14 @@ function SurveyUseage() {
             {UseageOfSurveyData.map((items, index) => {
               return (
                 <div
+                key={index}
                   className={` p-3 w-full min-h-[100px] rounded tracking-wider bg-white  ${poppinsNormal.className} `}
                 >
                   <div className="flex items-center space-x-2">
                     <span className="mdi mdi-hand-pointing-right" />
                     <h1 className={`!font-bold`}>{items?.title}</h1>
                   </div>
-                  <p className="text-gray-400 pt-2 text-sm leading-6 text-justify">
+                  <p className="text-gray-600 pt-2 text-sm leading-6 text-justify">
                     {items?.content}
                   </p>
                 </div>

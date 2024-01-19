@@ -2,13 +2,13 @@ import React, { useState } from "react"
 import { AccordionArrow } from "../icons/PageIcons"
 import NestedLinkItems from "./NestedLinkItems"
 
-function NestedItems({ items, index }: any) {
+function NestedItems({ items, key }: any) {
   const [isOpen, setOpen] = useState(false)
   return (
     <>
       <li
         onClick={() => setOpen(!isOpen)}
-        key={index}
+        key={key}
         className="tracking-wider text-sm text-[#171717] hover:text-[#0b19db] cursor-pointer flex justify-between items-center gap-x-2 group"
       >
         {items?.title}
@@ -25,7 +25,7 @@ function NestedItems({ items, index }: any) {
         <ul className="rounded absolute top-16 right-0 bg-[#171717] w-1/2 shadow-lg p-1 grid grid-cols-1 gap-2">
           {items?.children?.map((items: any, index: number) => {
             return (
-              <NestedLinkItems items={items} index={index} setOpen={setOpen} />
+              <NestedLinkItems items={items} key={index} setOpen={setOpen} />
             )
           })}
         </ul>

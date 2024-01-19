@@ -29,7 +29,7 @@ function ChallengesData() {
           <div className="flex-1 flex flex-col gap-5 tracking-wider">
             <div className={`flex flex-col  ${poppinsNormal.className}`}>
               <h1 className={`!font-bold`}>Be ready for what comes next.</h1>
-              <p className="text-gray-400 text-sm leading-6">
+              <p className="text-gray-600 text-sm leading-6">
                 As your business needs change, you need to be able to
                 pivot—fast. Our adaptable architecture helps you do just that.
               </p>
@@ -38,7 +38,7 @@ function ChallengesData() {
               <h1 className={`!font-bold`}>
                 Empower decisions at every level.
               </h1>
-              <p className="text-gray-400 text-sm leading-6">
+              <p className="text-gray-600 text-sm leading-6">
                 With one source for financial, people, and operational data,
                 everyone can access real-time insights to make sound decisions.
               </p>
@@ -47,7 +47,7 @@ function ChallengesData() {
               <h1 className={`!font-bold`}>
                 A technology foundation you can trust.
               </h1>
-              <p className="text-gray-400 text-sm leading-6">
+              <p className="text-gray-600 text-sm leading-6">
                 We never stop innovating. And you can count on us to deliver
                 technology that fuels your growth and keeps your data safe.
               </p>

@@ -26,10 +26,10 @@ function LandingPage() {
         </div>
 
         <div className="w-full h-full p-2 grid place-items-center">
-          <div className="lg:w-4/5 rounded-lg bg-white shadow-lg p-4 flex flex-col">
+          <div className="lg:w-3/4 rounded-lg bg-white shadow-lg p-4 flex flex-col">
             <h1 className={`${poppinsNormal} text-3xl`}>Create your account</h1>
             <form className={`py-3 flex-1 ${poppinsNormal.className}`}>
-              <Inputfield label="userName" name="userName" type="text" />
+              <Inputfield label="user Name" name="userName" type="text" />
 
               <Inputfield label="Business email" name="email" type="text" />
               <div className="py-10 flex justify-end">

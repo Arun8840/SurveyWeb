@@ -12,7 +12,7 @@ const sansBold = Open_Sans({
 })
 
 const poppinsNormal = Poppins({
-  weight: "300",
+  weight: "400",
   subsets: ["latin"],
   display: "block",
 })

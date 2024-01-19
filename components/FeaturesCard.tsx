@@ -14,14 +14,14 @@ function FeaturesCard() {
         <h1
           className={`text-[32px] bg-gradient-to-b from-[#3d3d3d]/90 to-[#171717] bg-clip-text text-transparent tracking-wider ${poppinsBold.className} capitalize text-center lg:text-start`}
         >
-          Our ZettaSurvey features
+          ZettaSurvey features
         </h1>
         <div className="h-1 bg-gradient-to-l from-[#190482] via-[#2F58CD] to-[#B931FC] w-1/3 mx-auto rounded-full"></div>
       </div>
       <ul className="container mx-auto h-full grid  rounded-lg bg-white divide-y">
         {surveyFeatures.map((items, index: number) => {
           return (
-            <li className=" grid grid-cols-2 first:rounded-r-lg">
+            <li key={index} className=" grid lg:grid-cols-2 first:rounded-r-lg">
               <div className="flex justify-center items-center p-3">
                 <h1>{items?.title}</h1>
               </div>
@@ -45,7 +45,7 @@ function FeaturesCard() {
           )
         })}
         <li className="p-4 flex justify-center">
-          <Button size="large" variant="Primary" label="Create a Survey" />
+          <Button size="large" variant="Primary" label="Contact Us" />
         </li>
       </ul>
     </div>
